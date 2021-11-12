@@ -4,6 +4,8 @@ Copyright (C) 2021 Steve D. J.. All rights reserved.
 
 使用cpp在MFC框架下编写的带有图形界面的Windows应用程序。仅供学习与参考。
 
+*****程序必须的地图文件"SHU_map_dark.bmp"太大无法放入主目录中，所以放在了Release里面，下载解压（如需解压）后放在项目根目录即可*****
+
 1. 基本信息
 采用Floyd最短路径算法实现；地图是绘制在MapDlg对话框控件picture control里面的；路线绘制的代码在MapDlg对话框的OnPaint()函数中；数据文件的读取及对象初始化在MapDlg对话框初始化时完成。
 
